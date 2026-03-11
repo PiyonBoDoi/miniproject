@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/etRoomId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã phòng"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etRoomName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Tên phòng"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etRoomPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Giá thuê"
+            android:inputType="numberDecimal"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <CheckBox
+            android:id="@+id/cbIsRented"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Đã thuê"
+            android:textColor="#212121"
+            android:buttonTint="#6200EE" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            android:layout_marginVertical="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin người thuê"
+            android:textColor="#6200EE"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etTenantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Tên người thuê"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Số điện thoại"
+            android:inputType="phone"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Ngày sinh (dd/mm/yyyy)"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Giới tính"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Địa chỉ quê quán"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/etRentalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Thời gian thuê (tháng)"
+            android:inputType="number"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#6200EE" />
+
+    </LinearLayout>
+</ScrollView>
